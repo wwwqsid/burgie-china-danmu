@@ -29,14 +29,18 @@
 
 ## 🚀 使用方法
 
-### 方式一：直接运行 Python 脚本
+### 方式零：直接下载 exe（推荐 ⭐）
+
+前往 [Releases 页面](https://github.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) 下载 `Burgie弹幕助手-v1.02.zip`，解压后双击 `Burgie弹幕助手.exe` 即可运行，无需安装 Python。
+
+### 方式一：从源码运行
 
 1. 安装 Python 3.10+
 2. 安装依赖：`pip install playwright`
 3. 安装 Chromium：`playwright install chromium`
 4. 双击 `启动弹幕助手.bat`
 
-### 方式二：打包为 exe
+### 方式二：自行打包为 exe
 
 ```bash
 pip install pyinstaller
@@ -82,3 +86,7 @@ pyinstaller "Burgie弹幕助手.spec" --noconfirm
 - 本 README.md 文件撰写：WorkBuddy AI
 
 如需了解 WorkBuddy，请访问 [codebuddy.cn](https://www.codebuddy.cn)
+
+## 📬 联系方式
+
+- Email: wwwqsid@outlook.com

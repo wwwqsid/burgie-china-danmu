@@ -29,6 +29,10 @@ The tool reads live chat messages from Chinese streaming platforms and forwards 
 
 ## 🚀 Getting Started
 
+### Option 0: Download Executable (Recommended ⭐)
+
+Go to the [Releases page](https://github.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) and download `Burgie弹幕助手-v1.02.zip`. Extract and run `Burgie弹幕助手.exe` — no Python installation required.
+
 ### Option 1: Run from Source
 
 1. Install Python 3.10+
@@ -82,3 +86,7 @@ This project only makes 4 modifications to the original BLR 1.02 plugin (adding 
 - This README.md was written by: WorkBuddy AI
 
 To learn more about WorkBuddy, visit [codebuddy.cn](https://www.codebuddy.cn)
+
+## 📬 Contact
+
+- Email: wwwqsid@outlook.com
