@@ -33,7 +33,13 @@ The tool reads live chat messages from Chinese streaming platforms and forwards 
 
 ### Option 0: Download Executable (Recommended ⭐)
 
-Go to the [Releases page](https://github.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) and download `Burgie弹幕助手-v1.02.zip`. Extract and run `Burgie弹幕助手.exe` — no Python installation required.
+**GitHub (single file download)**: Go to the [Releases page](https://github.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) and download `Burgie弹幕助手-v1.02.zip`. Extract and run `Burgie弹幕助手.exe` — no Python installation required.
+
+**Gitee (split archive)**: Go to the [Gitee Releases page](https://gitee.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) and download all 4 parts (part1 ~ part4). Merge them with the following command, then extract:
+
+```cmd
+copy /b Burgie-danmu-v1.02.part1.zip+Burgie-danmu-v1.02.part2.zip+Burgie-danmu-v1.02.part3.zip+Burgie-danmu-v1.02.part4.zip Burgie-danmu-v1.02.zip
+```
 
 ### Option 1: Run from Source
 

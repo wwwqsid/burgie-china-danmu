@@ -33,7 +33,13 @@
 
 ### 方式零：直接下载 exe（推荐 ⭐）
 
-前往 [Releases 页面](https://github.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) 下载 `Burgie弹幕助手-v1.02.zip`，解压后双击 `Burgie弹幕助手.exe` 即可运行，无需安装 Python。
+**GitHub（单文件完整下载）**：前往 [Releases 页面](https://github.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) 下载 `Burgie弹幕助手-v1.02.zip`，解压后双击 `Burgie弹幕助手.exe` 即可运行，无需安装 Python。
+
+**Gitee（分卷下载）**：前往 [Gitee Releases 页面](https://gitee.com/wwwqsid/burgie-china-danmu/releases/tag/v1.02) 下载全部 4 个分卷文件（part1 ~ part4），使用以下命令合并后再解压：
+
+```cmd
+copy /b Burgie-danmu-v1.02.part1.zip+Burgie-danmu-v1.02.part2.zip+Burgie-danmu-v1.02.part3.zip+Burgie-danmu-v1.02.part4.zip Burgie-danmu-v1.02.zip
+```
 
 ### 方式一：从源码运行
 
