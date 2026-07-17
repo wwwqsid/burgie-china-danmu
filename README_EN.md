@@ -2,7 +2,7 @@ English | [简体中文](README.md)
 
 # Burgie China Danmu Assistant
 
-> This project is derived from the original author **HeyNau Games**' [BLR (Burgie's Livestream Reader) 1.02](https://heynaugames.com) plugin, reverse-engineered and rewritten with extended support for five major Chinese livestream platforms.
+> This project is derived from the original author **HeyNau Games**' [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) plugin, reverse-engineered and rewritten with extended support for five major Chinese livestream platforms.
 
 A livestream chat/danmaku reader for Chinese streaming platforms, built for [Burgie's Cozy Kitchen](https://heynaugames.com/burgie-commands) gameplay interaction.
 

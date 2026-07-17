@@ -2,7 +2,7 @@
 
 # Burgie 直播弹幕助手
 
-> 本项目源自原作者 **HeyNau Games** 的 [BLR (Burgie's Livestream Reader) 1.02](https://heynaugames.com) 插件，经逆向重写并扩展了五大中国直播平台的支持。
+> 本项目源自原作者 **HeyNau Games** 的 [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) 插件，经逆向重写并扩展了五大中国直播平台的支持。
 
 基于 BLR 1.02 逆向重写，支持五大直播平台的弹幕读取与游戏互动。
 
