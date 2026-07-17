@@ -1,0 +1,31 @@
+# PyInstaller 打包结果
+dist/
+build/
+*.spec.bak
+
+# 原始 exe 文件（逆向工程产物，不上传）
+*.exe
+
+# Chromium 浏览器数据（太大，用户自行下载）
+chromium_data/
+
+# 逆向工程解包目录
+BurgiesLivestreamReader.exe_extracted/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时文件
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
