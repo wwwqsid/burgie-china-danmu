@@ -58,3 +58,14 @@ pyinstaller "Burgie弹幕助手.spec" --noconfirm
 ## 📄 许可
 
 本项目基于 HeyNau Games 的 BLR 1.02 逆向重写，仅供学习交流使用。
+
+## 🤖 关于本项目
+
+本项目的代码修改、功能扩展、Bug 修复、打包配置以及本 README 文件均由 **WorkBuddy AI** 协助完成。
+
+- 代码重构与五平台适配：WorkBuddy AI
+- PyInstaller 打包配置与 exe 生成：WorkBuddy AI
+- 视频号弹幕解析调试：WorkBuddy AI
+- 本 README.md 文件撰写：WorkBuddy AI
+
+如需了解 WorkBuddy，请访问 [codebuddy.cn](https://www.codebuddy.cn)
