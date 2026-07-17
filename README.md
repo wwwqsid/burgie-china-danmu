@@ -6,6 +6,8 @@
 
 > 本项目源自原作者 **HeyNau Games** 的 [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) 插件。
 
+> 📌 **仓库地址**：[GitHub](https://github.com/wwwqsid/burgie-china-danmu) | [Gitee](https://gitee.com/wwwqsid/burgie-china-danmu)
+
 原插件已支持抖音、B站、小红书三大平台。本项目在原插件基础上做了以下 **4 项修改**（由 WorkBuddy AI 协助完成）：
 
 1. **新增快手平台** — WebSocket 拦截 + Protobuf 解析

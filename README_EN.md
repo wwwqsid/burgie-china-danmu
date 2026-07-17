@@ -6,6 +6,8 @@ English | [简体中文](README.md)
 
 > This project is derived from the original author **HeyNau Games**' [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) plugin.
 
+> 📌 **Repository**: [GitHub](https://github.com/wwwqsid/burgie-china-danmu) | [Gitee](https://gitee.com/wwwqsid/burgie-china-danmu)
+
 The original plugin already supported three platforms: Douyin, Bilibili, and Xiaohongshu. This project makes the following **4 modifications** to the original plugin (assisted by WorkBuddy AI):
 
 1. **Added Kuaishou platform** — WebSocket interception + Protobuf parsing
