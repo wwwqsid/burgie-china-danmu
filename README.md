@@ -1,22 +1,27 @@
 [English](README_EN.md) | 简体中文
 
-> ⚠️ **本文件由 WorkBuddy AI 撰写。** 项目代码修改、功能扩展、打包配置及本文档均由 WorkBuddy AI 协助完成。
+> ⚠️ **本文件由 WorkBuddy AI 撰写。**
 
 # Burgie 直播弹幕助手
 
-> 本项目源自原作者 **HeyNau Games** 的 [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) 插件，经逆向重写并扩展了五大中国直播平台的支持。
+> 本项目源自原作者 **HeyNau Games** 的 [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) 插件。
 
-基于 BLR 1.02 逆向重写，支持五大直播平台的弹幕读取与游戏互动。
+原插件已支持抖音、B站、小红书三大平台。本项目在原插件基础上做了以下 **4 项修改**（由 WorkBuddy AI 协助完成）：
+
+1. **新增快手平台** — WebSocket 拦截 + Protobuf 解析
+2. **新增微信视频号平台** — HTTP 响应拦截 + WebSocket 双通道
+3. **界面改为中文** — 适配中国用户使用习惯
+4. **新增浏览器显示** — 可直观查看拦截过程
 
 ## ✨ 支持平台
 
-| 平台 | 连接方式 | 需要登录 |
-|------|---------|---------|
-| 抖音 Douyin | WebSocket 拦截 | 否 |
-| B站 哔哩哔哩 | WebSocket 拦截 | 否 |
-| 小红书 XHS | WebSocket 拦截 | 否 |
-| 快手 Kuaishou | WebSocket 拦截 + Protobuf 解析 | 否 |
-| 视频号 WeChat | HTTP 响应拦截 + WebSocket | 需微信扫码（主播账号） |
+| 平台 | 来源 | 连接方式 | 需要登录 |
+|------|------|---------|---------|
+| 抖音 Douyin | 原作者 | WebSocket 拦截 | 否 |
+| B站 哔哩哔哩 | 原作者 | WebSocket 拦截 | 否 |
+| 小红书 XHS | 原作者 | WebSocket 拦截 | 否 |
+| 快手 Kuaishou | ✨ 新增 | WebSocket 拦截 + Protobuf 解析 | 否 |
+| 视频号 WeChat | ✨ 新增 | HTTP 响应拦截 + WebSocket | 需微信扫码（主播账号） |
 
 ## 🎮 配合游戏
 
@@ -63,15 +68,17 @@ pyinstaller "Burgie弹幕助手.spec" --noconfirm
 
 ## 📄 许可
 
-本项目基于 HeyNau Games 的 BLR 1.02 逆向重写，仅供学习交流使用。
+本项目基于 HeyNau Games 的 BLR 1.02 修改，仅供学习交流使用。
 
 ## 🤖 关于本项目
 
-本项目的代码修改、功能扩展、Bug 修复、打包配置以及本 README 文件均由 **WorkBuddy AI** 协助完成。
+本项目仅在原作者 BLR 1.02 基础上做了 4 项修改（新增快手平台、新增视频号平台、界面中文化、新增浏览器显示），以及 PyInstaller 打包配置和本文档，均由 **WorkBuddy AI** 协助完成。
 
-- 代码重构与五平台适配：WorkBuddy AI
+- 快手平台弹幕解析：WorkBuddy AI
+- 视频号平台弹幕解析：WorkBuddy AI
+- 界面中文化：WorkBuddy AI
+- 浏览器显示功能：WorkBuddy AI
 - PyInstaller 打包配置与 exe 生成：WorkBuddy AI
-- 视频号弹幕解析调试：WorkBuddy AI
 - 本 README.md 文件撰写：WorkBuddy AI
 
 如需了解 WorkBuddy，请访问 [codebuddy.cn](https://www.codebuddy.cn)

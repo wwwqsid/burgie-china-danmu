@@ -1,24 +1,27 @@
 English | [简体中文](README.md)
 
-> ⚠️ **This document is written by WorkBuddy AI.** Code modifications, feature extensions, packaging configuration, and this document were all completed with the assistance of WorkBuddy AI.
+> ⚠️ **This document is written by WorkBuddy AI.**
 
 # Burgie China Danmu Assistant
 
-> This project is derived from the original author **HeyNau Games**' [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) plugin, reverse-engineered and rewritten with extended support for five major Chinese livestream platforms.
+> This project is derived from the original author **HeyNau Games**' [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) plugin.
 
-A livestream chat/danmaku reader for Chinese streaming platforms, built for [Burgie's Cozy Kitchen](https://heynaugames.com/burgie-commands) gameplay interaction.
+The original plugin already supported three platforms: Douyin, Bilibili, and Xiaohongshu. This project makes the following **4 modifications** to the original plugin (assisted by WorkBuddy AI):
 
-Reverse-engineered and rewritten from BLR 1.02, supporting 5 major Chinese live streaming platforms.
+1. **Added Kuaishou platform** — WebSocket interception + Protobuf parsing
+2. **Added WeChat Channels platform** — HTTP response interception + WebSocket dual-channel
+3. **Chinese localization** — UI adapted for Chinese users
+4. **Added browser display** — Visual inspection of the interception process
 
 ## ✨ Supported Platforms
 
-| Platform | Connection Method | Login Required |
-|----------|------------------|----------------|
-| Douyin (TikTok China) | WebSocket interception | No |
-| Bilibili | WebSocket interception | No |
-| Xiaohongshu (RED) | WebSocket interception | No |
-| Kuaishou | WebSocket interception + Protobuf parsing | No |
-| WeChat Channels (视频号) | HTTP response interception + WebSocket | Yes (WeChat QR scan, streamer account) |
+| Platform | Source | Connection Method | Login Required |
+|----------|--------|------------------|----------------|
+| Douyin (TikTok China) | Original Author | WebSocket interception | No |
+| Bilibili | Original Author | WebSocket interception | No |
+| Xiaohongshu (RED) | Original Author | WebSocket interception | No |
+| Kuaishou | ✨ New | WebSocket interception + Protobuf parsing | No |
+| WeChat Channels (视频号) | ✨ New | HTTP response interception + WebSocket | Yes (WeChat QR scan, streamer account) |
 
 ## 🎮 How It Works
 
@@ -65,15 +68,17 @@ Full command list: [Official Site](https://heynaugames.com/burgie-commands)
 
 ## 📄 License
 
-This project is based on HeyNau Games' BLR 1.02 reverse engineering rewrite, for educational and learning purposes only.
+This project is a modification of HeyNau Games' BLR 1.02, for educational and learning purposes only.
 
 ## 🤖 About This Project
 
-Code modifications, feature extensions, bug fixes, packaging configuration, and this README file were all completed with the assistance of **WorkBuddy AI**.
+This project only makes 4 modifications to the original BLR 1.02 plugin (adding Kuaishou platform, adding WeChat Channels platform, Chinese localization, and browser display), plus PyInstaller packaging configuration and this document, all completed with the assistance of **WorkBuddy AI**.
 
-- Code refactoring & 5-platform adaptation: WorkBuddy AI
+- Kuaishou platform danmaku parsing: WorkBuddy AI
+- WeChat Channels platform danmaku parsing: WorkBuddy AI
+- Chinese localization: WorkBuddy AI
+- Browser display feature: WorkBuddy AI
 - PyInstaller packaging config & exe generation: WorkBuddy AI
-- WeChat Channels danmaku parsing & debugging: WorkBuddy AI
 - This README.md was written by: WorkBuddy AI
 
 To learn more about WorkBuddy, visit [codebuddy.cn](https://www.codebuddy.cn)
