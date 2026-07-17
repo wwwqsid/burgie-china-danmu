@@ -1,3 +1,5 @@
+English | [简体中文](README.md)
+
 # Burgie China Danmu Assistant
 
 A livestream chat/danmaku reader for Chinese streaming platforms, built for [Burgie's Cozy Kitchen](https://heynaugames.com/burgie-commands) gameplay interaction.
