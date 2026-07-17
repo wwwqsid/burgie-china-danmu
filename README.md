@@ -1,5 +1,7 @@
 [English](README_EN.md) | 简体中文
 
+> ⚠️ **本文件由 WorkBuddy AI 撰写。** 项目代码修改、功能扩展、打包配置及本文档均由 WorkBuddy AI 协助完成。
+
 # Burgie 直播弹幕助手
 
 > 本项目源自原作者 **HeyNau Games** 的 [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) 插件，经逆向重写并扩展了五大中国直播平台的支持。

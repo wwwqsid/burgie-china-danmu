@@ -1,5 +1,7 @@
 English | [简体中文](README.md)
 
+> ⚠️ **This document is written by WorkBuddy AI.** Code modifications, feature extensions, packaging configuration, and this document were all completed with the assistance of WorkBuddy AI.
+
 # Burgie China Danmu Assistant
 
 > This project is derived from the original author **HeyNau Games**' [BLR (Burgie's Livestream Reader) 1.02](https://steamcommunity.com/app/3314340/discussions/0/561408449130437193/) plugin, reverse-engineered and rewritten with extended support for five major Chinese livestream platforms.
